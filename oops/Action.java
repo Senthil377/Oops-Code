@@ -8,6 +8,9 @@ public class Action extends Movie{
 		else if (noOfFights>=5&&noOfFights<=10) {
 			return "Hard level";
 		}
+		else if(noOfFights>10) {
+			return "Full Fire";
+		}
 		else {
 			return "No Action";
 		}
